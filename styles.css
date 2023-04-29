@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 20px;
+}
+
+.image{
+    width: 40vw;
+    height: 50vh;
+}
+
+.img{
+    margin-top: 70px;
+    margin-left: 80px;
+    width: 50%;
+}
+
+.content{
+    text-align: center;
+    margin-top: 120px;
+    margin-right: 50px;
+    width: 50%;
+    color: aliceblue;
+}
+
+.section{
+    display: flex;
+}
+
+.button{
+    background-color: rgb(255, 4, 255);
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    background-color: white;
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px;
+    color: purple;
+}
+
+.prgh{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    margin: 10px 100px 20px 100px;
+}
+
+.toggle{
+    position: absolute;
+    top:30px;
+    right: 30px;
+    display: none;
+    font-size: 25px;
+}
+
+body{
+    background: linear-gradient(rgb(255, 4, 255), rgb(138, 10, 230));
+}
+
+@media screen and (max-width: 700px) {
+    .toggle{
+        display: block;
+    }
+    .nav{
+        display: none;
+        margin-right: 17%;
+        text-align: center;
+        background-color: rgb(236, 22, 236);
+    }
+    .nav a{
+        margin-bottom: 3%;
+        width: 100%;
+        color: black;
+    }
+    .n1:hover{
+        background-color: white;
+        border-radius: 10px;
+        color: purple;
+        overflow: hidden;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        width: 40vw;
+        height: 50vh;
+    }
+    .img{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .content{
+        margin-left: 25%;
+        width: 50%;
+        text-align: center;
+    }
+    .image{
+        width: 50vw;
+        height: 50vh;
+    }
+    .img{
+        width:100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .prgh{
+        text-align: center;
+        margin: 10px 10px;
+    }
+    .nav.active{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 15%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .image{
+        width: 70vw;
+        height: 40vh;
+    }
+}

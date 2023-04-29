@@ -1,0 +1,5 @@
+let toggle = document.querySelector(".toggle")
+let nav = document.querySelector(".nav")
+toggle.onclick = function(){
+    nav.classList.toggle("active")
+}
