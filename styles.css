@@ -473,8 +473,8 @@ img {
     margin: 0;
   }
   .section {
-    padding-top: 4rem;
-    padding-bottom: 3rem;
+    /* padding-top: 4rem; */
+    /* padding-bottom: 3rem; */
   }
   .section-title {
     margin-bottom: var(--mb-6);
@@ -529,6 +529,7 @@ img {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
   }
   .home {
     padding: 10rem 0 2rem;
@@ -546,8 +547,8 @@ img {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3%;
-    margin: 5% 0;
+    /* gap: 3%; */
+    /* margin: 5% 0; */
 }
 
 .card {
@@ -651,7 +652,7 @@ a.read_more:hover {
     }
 
     .grid {
-        gap: 2%;
+        /* gap: 2%; */
     }
 
     .card {
@@ -684,7 +685,7 @@ a.read_more:hover {
 
     .grid {
         grid-template-columns: 1fr;
-        gap: 2%;
+        /* gap: 2%; */
     }
 }
 
