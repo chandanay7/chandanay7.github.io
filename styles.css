@@ -101,11 +101,6 @@ img {
   background-color: var(--first-color);
 }
 
-.section {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
-}
-
 /*===== LAYOUT =====*/
 .bd-grid {
   max-width: 1024px;
@@ -381,6 +376,7 @@ img {
 }
 
 .contact__button {
+  margin-bottom: 20px;
   display: block;
   border: none;
   outline: none;
@@ -611,7 +607,6 @@ a.read_more {
     text-decoration: none;
     letter-spacing: 1.1px;
     background: #0F1616;
-    margin-top: 50px;
     padding: 24px 0px;
     border-radius: 15px;
     display: inline-block;
